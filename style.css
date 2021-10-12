@@ -1,0 +1,32 @@
+body {
+  margin: 150px;
+  padding: 0;
+  background-color: red;
+}
+section .inner-form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 100px auto;
+}
+input#label {
+  border-radius: 10px;
+  padding: 5px;
+  width: 30em;
+}
+button {
+  border-radius: 10px;
+  padding: 5px;
+  width: 31em;
+}
+.inner-form {
+  background-color: white;
+  width: 90%;
+  height: 60vh;
+  border-radius: 5px;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+}
