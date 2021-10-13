@@ -1,93 +1,90 @@
 body {
   margin: 0;
-  padding: 0;
-  border: 0;
+  padding: 20px;
   background-color: red;
 }
 .h1 {
   font-size: 30px;
+  margin-left: 55px;
 }
-section .inner-form .container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: white;
-  width: 90%;
-  margin: 0 auto;
-}
-section .container {
-  height: 100vh;
-  position: absolute;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin: 0 auto;
+label {
+  margin-left: 55px;
 }
 input#label {
   border-radius: 10px;
   padding: 5px;
-  width: 30em;
+  width: 80%;
+  position: relative;
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-left: 55px;
 }
-button {
+button.submit {
   border-radius: 10px;
   padding: 5px;
-  width: 31em;
-  margin: auto;
+  width: 82%;
+  margin-left: 55px;
+  text-align: center;
 }
 .inner-form {
-  height: 400px;
-  width: auto;
+  width: 90%;
   border-radius: 5px;
   padding: 20px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
   background-color: white;
-  margin: 100px auto;
+  margin: 220px auto;
+  align-content: center;
+  justify-content: center;
 }
 
 @media screen and (min-width: 800px) {
-  .inner-form .container {
-    height: 400px;
-    width: auto;
-    margin: 100px auto;
-    padding: 20px auto;
+  body {
+    height: auto;
+    margin: 0;
+    padding: 0;
   }
-  .side-by-side {
-    width: auto;
-    margin: 0 20px;
+  .inner-form {
+    float: left;
+    width: 33.33%;
+    border-radius: 5px;
+    background-color: white;
+    margin-right: 15px;
+    margin-left: 15px;
+    align-items: center;
+  }
+  .about-parent-container.item2 {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  button.submit {
+    width: 73.5%;
+    text-align: center;
+    margin-left: 30px;
   }
   input#label {
     border-radius: 10px;
     padding: 5px;
-    width: 20em;
-    margin-right: auto;
-    margin-left: auto;
+    width: 70%;
+    margin-left: 30px;
   }
-  form {
-    margin-right: 50px;
+  label,
+  .h1 {
+    margin-left: 30px;
   }
-  button {
-    width: 21em;
+  div.circle-container {
+    width: 100%;
+    position: relative;
   }
   .circle-container {
-    width: 66.66%;
     display: flex;
     align-items: center;
     justify-content: center;
     position: absolute;
     background-color: black;
     height: 100vh;
-    margin: 0 auto;
-  }
-  .side-by-side {
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    float: right;
   }
   .small {
     position: absolute;
@@ -95,7 +92,9 @@ button {
     height: 100px;
     width: 100px;
     background-color: red;
-    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
   .medium {
     position: absolute;
@@ -103,7 +102,9 @@ button {
     height: 200px;
     width: 200px;
     background-color: white;
-    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
   .large {
     position: absolute;
@@ -111,6 +112,8 @@ button {
     height: 300px;
     width: 300px;
     background-color: red;
-    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
 }

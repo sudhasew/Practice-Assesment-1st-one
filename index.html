@@ -5,32 +5,31 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
-    <title>Practise-Assesment1</title>
+    <title>SIDE_BY_SIDE</title>
   </head>
   <body>
-      <section class="inner-form container">
-        <section class="side-by-side">
-        <form>
-          <h1 class="h1">My Form</h1>
-          <div>
-            <label for="label">Label 1</label>
-          </div>
-          <input type="text" id="label" placeholder="Input 1" />
-          <div>
-            <label for="label2">Label 2</label>
-          </div>
-          <input type="text" id="label" placeholder="Input 2" />
-          <div>
-            <button>Submit</button>
-          </div>
-        </form>
-      </section>
-    <section class="about-parent-container side-by-side">
+    <section class="side-by-side inner-form">
+      <form class="input1">
+        <h1 class="h1">My Form</h1>
+        <div>
+          <label for="label1">Label 1</label>
+        </div>
+        <input type="text" id="label" name="label" placeholder="Input 1" />
+      </form>
+      <form class="input2">
+        <label for="label2">Label 2</label>
+        <input type="text" id="label" name="label" placeholder="Input 2" />
+      </form>
+      <form>
+        <button class="submit">Submit</button>
+      </form>
+    </section>
+    <section class="about-parent-container item2">
       <div class="circle-container">
         <div class="large"></div>
         <div class="medium"></div>
         <div class="small"></div>
-      </section>
+      </div>
     </section>
   </body>
 </html>
